@@ -1,0 +1,35 @@
+package com.sea;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sea.model.Employee;
+import com.sea.service.QueryDSLService;
+
+@RestController
+public class QueryController {
+
+	@Autowired
+	private QueryDSLService dslService;
+	
+	@GetMapping("/searchMultifield/{firstname}/{age}")
+	public List<Employee> searchByMultiField(@PathVariable() String firstname,@PathVariable() int age){
+		return dslService.searchMultiField(firstname, age);
+	}
+	
+	@GetMapping("/employeeSearch/{firstname}")
+	public List<Employee> getEmployeeByField(@PathVariable() String firstname){
+		return dslService.getEmployeeSearchData(firstname);
+	}
+	
+	@GetMapping("/search/{text}")
+	public List<Employee> getEmployeeByField(@PathVariable() String text){
+		return dslService.multiMatchQuery(text);
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.sea.service;
+
+public class QueryDSLService {
+
+}

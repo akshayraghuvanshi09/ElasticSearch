@@ -1,0 +1,30 @@
+//package com.elk.service;
+//
+//import java.io.IOException;
+//import java.util.function.Supplier;
+//
+//import org.elasticsearch.core.Map;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.stereotype.Service;
+//
+//import com.elk.util.ElasticSearchUtils;
+//
+//import co.elastic.clients.elasticsearch.ElasticsearchClient;
+//import co.elastic.clients.elasticsearch._types.ElasticsearchException;
+//import co.elastic.clients.elasticsearch._types.query_dsl.Query;
+//import co.elastic.clients.elasticsearch.core.SearchResponse;
+//
+//@Service
+//public class ElasticSearchService {
+//
+//	@Autowired
+//	private ElasticsearchClient elasticsearchClient;
+//	
+//	
+//	 public SearchResponse<Map> matchAllService() throws ElasticsearchException, IOException{
+//		 Supplier<Query> supplier = ElasticSearchUtils.supplier();
+//		 SearchResponse<Map> searchResponse = elasticsearchClient.search(s->s.query(supplier.get()), Map.class);
+//		 System.out.println("elastic search query is"+supplier.get().toString());
+//		 return searchResponse;
+//	 }
+//}

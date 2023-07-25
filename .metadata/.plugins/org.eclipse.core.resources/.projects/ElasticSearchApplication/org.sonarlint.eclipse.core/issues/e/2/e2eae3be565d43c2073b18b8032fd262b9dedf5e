@@ -1,0 +1,13 @@
+
+™
+java:S1488""aImmediately return this expression instead of assigning it to the temporary variable "employees".(Š†’“ÿÿÿÿÿ8ÇçÇî”1HíRMINORZ
+CODE_SMELL
+”
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "employees".(áÔÓœ8ÇçÇî”1HêRMINORZ
+CODE_SMELL
+…
+java:S1192"JDefine a constant instead of duplicating this literal "firstname" 3 times.(êï§úÿÿÿÿ8ÇçÇî”1HæRCRITICALZ
+CODE_SMELL
+™
+java:S1488)"aImmediately return this expression instead of assigning it to the temporary variable "employees".(Š†’“ÿÿÿÿÿ8ÇçÇî”1HğRMINORZ
+CODE_SMELL

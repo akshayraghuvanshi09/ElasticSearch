@@ -1,0 +1,5 @@
+package com.sea.repository;
+
+public class EmployeeRepository {
+
+}

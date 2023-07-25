@@ -1,0 +1,44 @@
+package com.elk.controller;
+
+import java.io.IOException;
+
+import org.elasticsearch.core.Map;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.elk.model.Product;
+import com.elk.service.ElasticSearchService;
+import com.elk.service.ProductService;
+
+import co.elastic.clients.elasticsearch._types.ElasticsearchException;
+import co.elastic.clients.elasticsearch.core.SearchResponse;
+
+@RestController()
+@RequestMapping("/apis")
+public class ProductController {
+
+	@Autowired
+	private ProductService productService;
+	
+	@Autowired
+	private ElasticSearchService elasticSearchService;
+	
+	@GetMapping("/findAll")
+	Iterable<Product> findAll(){
+		return productService.getProducts();
+	}
+	
+	@PostMapping("/insert")
+	public Product insertPoduct(@RequestBody Product product) {
+		return productService.insertProduct(product);
+	}
+	
+	@GetMapping("/matchAll")
+	public SearchResponse<Map> matchAll() throws ElasticsearchException, IOException{
+		return elasticSearchService.matchAllService();
+	}
+}

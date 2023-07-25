@@ -1,0 +1,5 @@
+package com.elk.repository;
+
+public class EmployeeRepository {
+
+}

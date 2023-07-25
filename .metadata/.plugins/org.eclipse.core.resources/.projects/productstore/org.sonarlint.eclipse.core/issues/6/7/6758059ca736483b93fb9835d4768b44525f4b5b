@@ -1,0 +1,7 @@
+
+•
+java:S1488 "^Immediately return this expression instead of assigning it to the temporary variable "client".(·œÖøşÿÿÿÿ8ßîÈ”1HRMINORZ
+CODE_SMELL
+”
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "restClient".(ö¹­‰8ßîÈ”1HRMINORZ
+CODE_SMELL

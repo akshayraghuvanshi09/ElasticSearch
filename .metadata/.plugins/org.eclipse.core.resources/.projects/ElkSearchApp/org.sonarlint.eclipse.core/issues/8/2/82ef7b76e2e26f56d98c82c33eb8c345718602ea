@@ -1,0 +1,6 @@
+
+
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ğ·ßúıÿÿÿÿ8‡œ’ó”1HêRMAJORZBUG
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‡œ’ó”1HëRMINORZ
+CODE_SMELL

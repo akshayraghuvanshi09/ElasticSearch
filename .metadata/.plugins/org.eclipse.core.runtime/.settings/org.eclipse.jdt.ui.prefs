@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.elasticsearch.node.NodeBuilder"><rhs name\="org.elasticsearch.node.NodeBuilder"/></lhs><lhs name\="org.springframework.data.elasticsearch.core.ElasticsearchOperations"><rhs name\="org.springframework.data.elasticsearch.core.ElasticsearchTemplate"/></lhs><lhs name\="java.lang.Enum"><rhs name\="org.elasticsearch.index.query.MultiMatchQueryBuilder$Type"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="org.elasticsearch.index.query.MultiMatchQueryBuilder$Type"/></lhs><lhs name\="com.elk.model.Product"><rhs name\="com.elk.model.Product"/></lhs><lhs name\="co.elastic.clients.util.OpenTaggedUnion"><rhs name\="co.elastic.clients.elasticsearch._types.query_dsl.Query"/></lhs><lhs name\="co.elastic.clients.util.TaggedUnion"><rhs name\="co.elastic.clients.elasticsearch._types.query_dsl.Query"/></lhs><lhs name\="co.elastic.clients.elasticsearch._types.aggregations.AggregationVariant"><rhs name\="co.elastic.clients.elasticsearch._types.query_dsl.Query"/></lhs><lhs name\="co.elastic.clients.json.JsonpSerializable"><rhs name\="co.elastic.clients.elasticsearch._types.query_dsl.Query"/></lhs><lhs name\="co.elastic.clients.elasticsearch._types.query_dsl.Query"><rhs name\="co.elastic.clients.elasticsearch._types.query_dsl.Query"/></lhs></history>
+content_assist_number_of_computers=19
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

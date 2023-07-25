@@ -1,0 +1,7 @@
+
+“
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "supplier".(Ø¡ºÀ8ƒßÎõ”1HòRMINORZ
+CODE_SMELL
+r
+java:S1118	":Add a private constructor to hide the implicit public one.(èİ¾“ûÿÿÿÿ8ƒßÎõ”1HõRMAJORZ
+CODE_SMELL
